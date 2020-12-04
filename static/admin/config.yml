@@ -1,0 +1,265 @@
+locale: "pt-br"
+backend:
+  #name: github
+  #repo: guilhermebellotti/deivideallan
+  name: github
+  repo: deivideallan/deivideallan.com.br
+
+publish_mode: editorial_workflow
+media_folder: "static/img/uploads"
+public_folder: "/img/uploads"
+
+collections:
+  - name: "bannerHome" # Used in routes, e.g., /admin/collections/blog
+    label: "Imagem na Home" # Used in the UI
+    folder: "contents/bannerHome" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {
+          label: "Data de publicação",
+          name: "date",
+          widget: "datetime",
+          format: "YYYY-MM-DD hh:mm:ss",
+        }
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Descrição", name: "description", widget: "string" }
+      - {
+          label: "Status",
+          name: "active",
+          widget: "select",
+          default: "yes",
+          options:
+            [
+              { label: "Ativado", value: "yes" },
+              { label: "Desativado", value: "no" },
+            ],
+        }
+      - {
+          label: "Imagem de destaque",
+          name: "image",
+          widget: "image",
+          default: "img/uploads/default-image.png",
+        }
+      - { label: "Url (link)", name: "url", widget: "string", default: "/" }
+
+  - name: "blog" # Used in routes, e.g., /admin/collections/blog
+    label: "Blog (postagens)" # Used in the UI
+    folder: "contents/blog" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {
+          label: "Data de publicação",
+          name: "date",
+          widget: "datetime",
+          format: "YYYY-MM-DD hh:mm:ss",
+        }
+      - {
+          label: "Ordem",
+          name: "sort",
+          widget: "number",
+          default: 2,
+          value_type: "int",
+          min: 0,
+          max: 99,
+        }
+      - {
+          label: "Categoria(s)",
+          name: "categories",
+          widget: "select",
+          default: "Daily sketch",
+          options:
+            [
+              "Daily sketch",
+              "Ilustrações",
+              "Quadrinhos",
+              "Tirinhas diárias",
+              "Aquarela",
+            ],
+        }
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Descrição", name: "description", widget: "string" }
+      - {
+          label: "Status",
+          name: "active",
+          widget: "select",
+          default: "yes",
+          options:
+            [
+              { label: "Ativado", value: "yes" },
+              { label: "Desativado", value: "no" },
+            ],
+        }
+      - {
+          label: "Hashtags",
+          name: "hashTag",
+          widget: "string",
+          default: "#deivideallan",
+        }
+      - {
+          label: "Imagem de destaque",
+          name: "image",
+          widget: "image",
+          default: "img/uploads/default-image.png",
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "cursos" # Used in routes, e.g., /admin/collections/blog
+    label: "Cursos" # Used in the UI
+    folder: "contents/cursos" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {
+          label: "Data de publicação",
+          name: "date",
+          widget: "datetime",
+          format: "YYYY-MM-DD hh:mm:ss",
+        }
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Descrição", name: "description", widget: "string" }
+      - {
+          label: "Status",
+          name: "active",
+          widget: "select",
+          default: "yes",
+          options:
+            [
+              { label: "Ativado", value: "yes" },
+              { label: "Desativado", value: "no" },
+            ],
+        }
+      - {
+          label: "Imagem de destaque",
+          name: "image",
+          widget: "image",
+          default: "img/uploads/default-image.png",
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "parceiros" # Used in routes, e.g., /admin/collections/blog
+    label: "Parceiros" # Used in the UI
+    folder: "contents/parceiros" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {
+          label: "Data de publicação",
+          name: "date",
+          widget: "datetime",
+          format: "YYYY-MM-DD hh:mm:ss",
+        }
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Descrição", name: "description", widget: "string" }
+      - {
+          label: "Status",
+          name: "active",
+          widget: "select",
+          default: "yes",
+          options:
+            [
+              { label: "Ativado", value: "yes" },
+              { label: "Desativado", value: "no" },
+            ],
+        }
+      - { label: "Url (link)", name: "url", widget: "string", default: "/" }
+      - {
+          label: "Imagem de destaque",
+          name: "image",
+          widget: "image",
+          default: "img/uploads/default-image.png",
+        }
+
+  - name: "shop" # Used in routes, e.g., /admin/collections/blog
+    label: "Shop" # Used in the UI
+    folder: "contents/shop" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {
+          label: "Data de publicação",
+          name: "date",
+          widget: "datetime",
+          format: "YYYY-MM-DD hh:mm:ss",
+        }
+      - {
+          label: "Ordem",
+          name: "sort",
+          widget: "number",
+          default: 2,
+          value_type: "int",
+          min: 0,
+          max: 99,
+        }
+      - { label: "Preço (somente valor)", name: "price", widget: "string", default: "9,99" }
+      - {
+          label: "Categoria(s)",
+          name: "categories",
+          widget: "select",
+          default: "Quadrinhos",
+          options:
+            ["Quadrinhos", "Print", "Chaveiro", "Camiseta", "Sketchbook"],
+        }
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Descrição", name: "description", widget: "string" }
+      - {
+          label: "Status",
+          name: "active",
+          widget: "select",
+          default: "yes",
+          options:
+            [
+              { label: "Ativado", value: "yes" },
+              { label: "Desativado", value: "no" },
+            ],
+        }
+      - {
+          label: "Visibilidade",
+          name: "show",
+          widget: "select",
+          default: "yes",
+          options:
+            [
+              { label: "Visivel na loja", value: "yes" },
+              { label: "Oculto na loja", value: "no" },
+            ],
+        }
+      - {
+          label: "Imagem de destaque",
+          name: "image",
+          widget: "image",
+          default: "img/uploads/default-image.png",
+        }
+
+  - name: "contato" # Used in routes, e.g., /admin/collections/blog
+    label: "Contato" # Used in the UI
+    folder: "contents/contato" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {
+          label: "Data de publicação",
+          name: "date",
+          widget: "datetime",
+          format: "YYYY-MM-DD hh:mm:ss",
+        }
+      - { label: "Título (da página)", name: "title", widget: "string" }
+      - {
+          label: "Status",
+          name: "active",
+          widget: "select",
+          default: "yes",
+          options:
+            [
+              { label: "Ativado", value: "yes" },
+              { label: "Desativado", value: "no" },
+            ],
+        }
+      - {
+          label: "Imagem de destaque",
+          name: "image",
+          widget: "image",
+          default: "img/uploads/default-image.png",
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
