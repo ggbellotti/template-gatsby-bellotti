@@ -7,7 +7,7 @@ import React from "react"
 const Logo = () => {
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "logo-black.png" }) {
+      file(relativePath: { eq: "" }) {
         childImageSharp {
           fluid(maxWidth: 150, quality: 90) {
             ...GatsbyImageSharpFluid_tracedSVG
@@ -16,9 +16,7 @@ const Logo = () => {
       }
     }
   `)
-  return (
-    <S.LogoBlack className="logo" fluid={data.file.childImageSharp.fluid} />
-  )
+  return <S.Logo className="logo" fluid={data.file.childImageSharp.fluid} />
 }
 
 export default Logo

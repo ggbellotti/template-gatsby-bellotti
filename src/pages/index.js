@@ -1,6 +1,3 @@
-import { graphql, useStaticQuery } from "gatsby"
-
-import BannerFullWidth from "@/BannerFullWidth"
 import Layout from "@/Layout"
 import React from "react"
 import SEO from "@/seo"

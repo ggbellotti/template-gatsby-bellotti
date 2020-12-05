@@ -10,15 +10,37 @@ module.exports = {
     phone: `5511999996666`,
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-styled-components`,
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-transformer-sharp`,
       options: {
         checkSupportedExtensions: false,
       },
     },
-    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: "gatsby-remark-relative-images",
+            options: {
+              name: "uploads",
+            },
+          },
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              maxWidth: 1280,
+              linkImagesToOriginal: false,
+            },
+          },
+          {
+            resolve: "gatsby-remark-images-zoom",
+          },
+          `gatsby-remark-lazy-load`,
+        ],
+      },
+    },
     {
       resolve: "gatsby-plugin-root-import",
       options: {
@@ -54,30 +76,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          {
-            resolve: "gatsby-remark-relative-images",
-            options: {
-              name: "uploads",
-            },
-          },
-          {
-            resolve: "gatsby-remark-images",
-            options: {
-              maxWidth: 1280,
-              linkImagesToOriginal: false,
-            },
-          },
-          {
-            resolve: "gatsby-remark-images-zoom",
-          },
-          `gatsby-remark-lazy-load`,
-        ],
-      },
-    },
-    {
       resolve: `gatsby-plugin-google-fonts-v2`,
       options: {
         fonts: [
@@ -92,6 +90,8 @@ module.exports = {
         ],
       },
     },
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

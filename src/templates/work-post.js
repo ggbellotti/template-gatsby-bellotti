@@ -35,7 +35,6 @@ export const query = graphql`
       siteMetadata {
         siteUrl
         author
-        hashTag
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
@@ -45,13 +44,7 @@ export const query = graphql`
       frontmatter {
         title
         description
-        image {
-          childImageSharp {
-            fluid {
-              src
-            }
-          }
-        }
+        image
       }
       html
     }

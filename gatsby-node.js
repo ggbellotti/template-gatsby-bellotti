@@ -38,15 +38,6 @@ exports.createPages = ({ graphql, actions }) => {
               fields {
                 slug
               }
-              frontmatter {
-                image {
-                  childImageSharp {
-                    fluid {
-                      src
-                    }
-                  }
-                }
-              }
             }
           }
         }
