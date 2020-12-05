@@ -98,7 +98,7 @@ module.exports = {
         name: `Guilherme Bellotti`,
         short_name: `Guilherme Bellotti`,
         start_url: `/`,
-        background_color: `#fff`,
+        background_color: `#000`,
         theme_color: `#000`,
         display: `minimal-ui`,
         icon: `static/img/icon-app.png`, // This path is relative to the root of the site.
