@@ -1,32 +1,26 @@
 import * as S from "./styles"
 
-import { Instagram, Twitter, Whatsapp } from "styled-icons/boxicons-logos"
-
 import { EmailOutline } from "styled-icons/evaicons-outline"
+import { Github } from "@styled-icons/boxicons-logos/Github"
 import React from "react"
+import { World } from "@styled-icons/boxicons-regular/World"
 
 const SocialLink = () => {
   const socials = [
     {
-      url: "https://www.instagram.com/deivide.allan/",
-      label: "Instagram",
-      icon: Instagram,
-    },
-    {
-      url:
-        "https://wa.me/5511985329490?&text=Olá,%20tudo%20bem?%20Meu%20nome%20é%20",
-      label: "WhatsApp",
-      icon: Whatsapp,
-    },
-    {
-      url: "https://twitter.com/DeivideAlllan",
-      label: "Twitter",
-      icon: Twitter,
-    },
-    {
-      url: "mailto:deivide.allan@outlook.com",
+      url: "mailto:guibellotti@hotmail.com",
       label: "E-mail",
       icon: EmailOutline,
+    },
+    {
+      url: "https://github.com/guilhermebellotti",
+      label: "GitHub",
+      icon: Github,
+    },
+    {
+      url: "https://guilhermebellotti.dev",
+      label: "Guilherme Bellotti - Portfólio",
+      icon: World,
     },
   ]
   return (

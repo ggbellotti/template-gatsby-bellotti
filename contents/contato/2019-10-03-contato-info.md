@@ -2,11 +2,11 @@
 date: 2019-10-03 05:54:23
 title: Contato
 active: yes
-image: ""
+image: /img/uploads/default-image.jpg
 ---
 
-## Informações de contato
+## Contact Information
 
-Caso queira bater um papo comigo, não tem problema! É só clicar nos links abaixo.
+If you want to chat with me, no problem! Just click on the links below.
 
-Até mais.
+See you.

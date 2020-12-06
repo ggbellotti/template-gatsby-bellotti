@@ -25,6 +25,7 @@ module.exports = {
             resolve: "gatsby-remark-relative-images",
             options: {
               name: "uploads",
+              staticFolderName: "static",
             },
           },
           {
@@ -41,6 +42,8 @@ module.exports = {
         ],
       },
     },
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-styled-components`,
     {
       resolve: "gatsby-plugin-root-import",
       options: {
@@ -90,8 +93,6 @@ module.exports = {
         ],
       },
     },
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

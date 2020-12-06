@@ -4,9 +4,9 @@ import Layout from "@/Layout"
 import React from "react"
 import SEO from "@/seo"
 
-const IndexPage = () => {
-  const Metadata = useStaticQuery(graphql`
-    query metadata {
+const ReadmePage = () => {
+  const MetadataReadme = useStaticQuery(graphql`
+    query metadatareadme {
       site {
         siteMetadata {
           description
@@ -17,12 +17,12 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO
-        title="Template GatsbyJS"
-        description={Metadata.site.siteMetadata.description}
+        title="Readme of Template GatsbyJS"
+        description={MetadataReadme.site.siteMetadata.description}
       />
-      <h1>Home</h1>
+      <h1>Readme</h1>
     </Layout>
   )
 }
 
-export default IndexPage
+export default ReadmePage

@@ -14,10 +14,11 @@ import React from "react"
 const sizeIcons = 28
 
 const Sharing = () => {
-  const messageShare = "Se liga nesse template feito com o GatsbyJS"
+  const messageShare =
+    "Check out this template made with GatsbyJS that Guilherme Bellotti developed"
   return (
     <S.ButtonsShare>
-      <p>Compartilhe com os amigos</p>
+      <p>Share with the friends</p>
       <S.Buttons>
         <WhatsappShareButton
           title={messageShare}

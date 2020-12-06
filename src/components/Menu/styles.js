@@ -6,6 +6,23 @@ export const Container = styled.nav`
   margin: 20px auto;
   text-align: center;
 `
-export const Navbar = styled.ul``
-export const NavItem = styled.li``
-export const NavLink = styled(AniLink)``
+export const Navbar = styled.ul`
+  display: flex;
+  justify-content: center;
+`
+export const NavItem = styled.li`
+  margin: 10px 10px 10px;
+  &:first-of-type {
+    margin-left: 0;
+  }
+`
+export const NavLink = styled(AniLink)`
+  text-decoration: none;
+  background-color: var(--main-color);
+  padding: 5px;
+  color: #fff;
+  &:hover {
+    background-color: var(--yellow-color);
+    color: var(--green-color);
+  }
+`

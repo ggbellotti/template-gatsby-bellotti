@@ -2,8 +2,9 @@ import { createGlobalStyle } from "styled-components"
 
 const GlobalStyle = createGlobalStyle`
   :root {
-    --colorBlack: #000;
-    --colorWhite: #fff;
+    --main-color: #223D8F;
+    --yellow-color: #F2D525;
+    --green-color: #0F8F79;
   }
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -33,7 +34,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     line-height: 1;
     background-color: #fff;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Roboto Mono', sans-serif;
     font-size: 16px;
     color: #000;
     &.hiddenBar{
@@ -41,23 +42,31 @@ const GlobalStyle = createGlobalStyle`
     }
   }
   button {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Roboto Mono', sans-serif;
     font-size: 16px;
     &:focus{
       outline: none;
     }
   }
+  a{
+    display:inline-block;
+    text-decoration: none;
+  }
   h1{
     font-size: 2rem;
     font-weight: bold;
     margin: 50px 0px;
+    font-family: 'JetBrains Mono';
+    text-align: center;
   }
   h2{
+    font-family: 'JetBrains Mono';
     font-size: 1.5rem;
     font-weight: bold;
     margin: 30px 0px 20px 0px;
   }
   h3{
+    font-family: 'JetBrains Mono';
     font-size: 1.25rem;
     font-weight: normal;
     margin-bottom: 20px;
