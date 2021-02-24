@@ -1,20 +1,20 @@
-import Layout from "../components/Layout"
+import Layout from "@Modules/Layout"
 import { Link } from "gatsby"
 import React from "react"
-import SEO from "../components/seo"
+import SEO from "@Modules/SEO"
 
 const NotFoundPage = () => (
   <Layout>
     <SEO title="404: Not found" />
     <h1 style={{ textAlign: "center" }}>
-      Eita, não encontrei o que está procurando...
+      Oh... I didn't find what you're looking for ...
     </h1>
     <p style={{ textAlign: "center" }}>
-      Mas fique tranquilo, vou te ajudar a voltar para o início
+      But rest assured, I'll help you get back to the beginning
     </p>
     <p style={{ textAlign: "center" }}>
       <Link style={{ textAlign: "center", color: "#000" }} to="/">
-        Voltar para o início
+        Back to home
       </Link>
     </p>
   </Layout>

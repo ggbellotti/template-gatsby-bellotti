@@ -1,4 +1,4 @@
-import AniLink from "gatsby-plugin-transition-link/AniLink"
+import { LinkTransition } from "@Modules/Buttons"
 import styled from "styled-components"
 
 export const Container = styled.nav`
@@ -16,13 +16,13 @@ export const NavItem = styled.li`
     margin-left: 0;
   }
 `
-export const NavLink = styled(AniLink)`
+export const NavLink = styled(LinkTransition)`
   text-decoration: none;
   background-color: var(--main-color);
   padding: 5px;
   color: #fff;
   &:hover {
-    background-color: var(--yellow-color);
-    color: var(--green-color);
+    background-color: var(--secondary-color);
+    color: var(--third-color);
   }
 `

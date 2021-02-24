@@ -1,9 +1,9 @@
 import * as S from "./styles"
 
-import Layout from "@/Layout"
+import Layout from "@Modules/Layout"
 import React from "react"
-import SEO from "@/seo"
-import Sharing from "@/Sharing"
+import SEO from "@Modules/SEO"
+import Sharing from "@Components/Sharing"
 import { graphql } from "gatsby"
 
 const WorkPost = ({ data }) => {
@@ -22,7 +22,7 @@ const WorkPost = ({ data }) => {
       />
       <S.TitlePost>{post.frontmatter.title}</S.TitlePost>
       <div
-        className="publication"
+        className="markdown-body"
         dangerouslySetInnerHTML={{ __html: post.html }}
       ></div>
       <Sharing data={data} />

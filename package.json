@@ -3,10 +3,14 @@
   "private": true,
   "description": "Template designed to facilitate the creation of websites with the Netlify CMS",
   "version": "1.0.0",
-  "author": "Guilherme Bellotti <guibellotti@hotmail.com>",
+  "author": {
+    "name": "Guilherme Bellotti",
+    "email": "guibellotti@hotmail.com",
+    "url": "https://guilhermebellotti.dev"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/guilhermebellotti/gatsby-bellotti"
+    "url": "https://github.com/guilhermebellotti/template-gatsby-bellotti"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
@@ -14,47 +18,54 @@
   "license": "MIT",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "gatsby": "^2.25.1",
-    "gatsby-cli": "^2.12.117",
-    "gatsby-image": "^2.4.21",
+    "gatsby": "^2.32.4",
+    "gatsby-cli": "^2.19.1",
+    "gatsby-image": "^2.11.0",
+    "gatsby-plugin-algolia": "^0.16.3",
     "gatsby-plugin-algolia-search": "^0.5.7",
+    "gatsby-plugin-anchor-links": "^1.2.1",
     "gatsby-plugin-google-fonts-v2": "^0.0.6",
-    "gatsby-plugin-manifest": "^2.5.1",
-    "gatsby-plugin-netlify-cms": "^4.3.17",
-    "gatsby-plugin-offline": "^3.3.1",
-    "gatsby-plugin-react-helmet": "^3.3.14",
-    "gatsby-plugin-sharp": "^2.10.0",
-    "gatsby-plugin-styled-components": "^3.3.14",
+    "gatsby-plugin-google-gtag": "^2.8.0",
+    "gatsby-plugin-hotjar": "^1.1.1",
+    "gatsby-plugin-manifest": "^2.12.0",
+    "gatsby-plugin-netlify-cms": "^4.10.0",
+    "gatsby-plugin-offline": "^3.10.1",
+    "gatsby-plugin-react-helmet": "^3.10.0",
+    "gatsby-plugin-sharp": "^2.14.1",
+    "gatsby-plugin-styled-components": "^3.10.0",
     "gatsby-plugin-transition-link": "^1.20.5",
-    "gatsby-remark-images": "^3.6.0",
+    "gatsby-remark-images": "^3.11.0",
     "gatsby-remark-images-native-lazy-load": "^1.0.0",
     "gatsby-remark-images-zoom": "^1.1.0",
     "gatsby-remark-lazy-load": "^1.0.2",
     "gatsby-remark-relative-images": "^2.0.2",
-    "gatsby-source-filesystem": "^2.4.0",
-    "gatsby-transformer-remark": "^2.11.1",
-    "gatsby-transformer-sharp": "^2.8.0",
-    "gsap": "^3.5.1",
-    "lazysizes": "^5.2.2",
-    "netlify-cms-app": "^2.13.3",
+    "gatsby-source-filesystem": "^2.11.0",
+    "gatsby-transformer-remark": "^2.16.0",
+    "gatsby-transformer-sharp": "^2.12.0",
+    "gsap": "^3.6.0",
+    "lazysizes": "^5.3.0",
+    "netlify-cms-app": "^2.14.25",
+    "netlify-plugin-gatsby-cache": "^0.3.2",
     "prop-types": "^15.7.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "react-share": "^4.3.1",
     "styled-components": "^5.2.1",
-    "styled-icons": "^10.22.0",
-    "styled-media-query": "^2.1.2"
+    "styled-icons": "^10.27.0"
   },
   "devDependencies": {
-    "gatsby-plugin-root-import": "^2.0.5",
-    "prettier": "2.1.2"
+    "gatsby-plugin-root-import": "^2.0.6",
+    "prettier": "2.2.1"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "bellotti-template",
+    "gatsby-bellotti",
+    "Netlify CMS"
   ],
   "scripts": {
-    "build": "gatsby build",
+    "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",

@@ -3,7 +3,7 @@ import * as S from "./styles"
 import { graphql, useStaticQuery } from "gatsby"
 
 import React from "react"
-import SocialLink from "@/SocialLink"
+import SocialLink from "@Modules/SocialLink"
 
 const Footer = () => {
   const { allMarkdownRemark, site } = useStaticQuery(graphql`

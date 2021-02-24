@@ -9,7 +9,7 @@ import "lazysizes"
 
 import React from "react"
 import ReactDOM from "react-dom"
-import SwUpdater from "./src/components/SwUpdater"
+import SwUpdater from "./src/modules/SwUpdater"
 
 function onServiceWorkerUpdateReady() {
   const root = document.createElement("div")

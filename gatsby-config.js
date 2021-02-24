@@ -7,7 +7,7 @@ module.exports = {
     author: `Guilherme Bellotti`,
     siteUrl: `https://guilhermebellotti.dev/`,
     email: `guibellotti@hotmail.com`,
-    phone: `5511999996666`,
+    phone: process.env.PHONE,
   },
   plugins: [
     `gatsby-plugin-sharp`,
@@ -47,7 +47,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-root-import",
       options: {
-        "@": path.join(__dirname, "src/components"),
+        "@Components": path.join(__dirname, "src/components"),
+        "@Modules": path.join(__dirname, "src/modules"),
       },
     },
     {
@@ -79,6 +80,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `readme`,
+        path: `${__dirname}/contents/readme`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-fonts-v2`,
       options: {
         fonts: [
@@ -96,19 +104,54 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Guilherme Bellotti`,
-        short_name: `Guilherme Bellotti`,
+        name: `Guilherme Bellotti Template`,
+        short_name: `GB Template`,
         start_url: `/`,
         background_color: `#000`,
         theme_color: `#000`,
-        display: `minimal-ui`,
-        icon: `static/img/icon-app.png`, // This path is relative to the root of the site.
+        display: `standalone`,
+        icon: `static/img/icon-app-favicon.png`,
       },
     },
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-transition-link`,
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
+    {
+      resolve: "gatsby-plugin-anchor-links",
+      options: {
+        offset: -50,
+      },
+    },
+    // {
+    //   resolve: `gatsby-plugin-algolia`,
+    //   options: {
+    //     appId: process.env.ALGOLIA_APP_ID,
+    //     apiKey: process.env.ALGOLIA_ADMIN_KEY,
+    //     queries: require("./src/utils/algolia-queries"),
+    //   },
+    // },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingIds: [process.env.GOOGLE_ANALYTICS_ID],
+        gtagConfig: {
+          anonymize_ip: true,
+          cookie_expires: 0,
+        },
+        pluginConfig: {
+          head: false,
+          exclude: ["/admin/**"],
+        },
+      },
+    },
+    {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        includeInDevelopment: false,
+        id: process.env.HOTJAR_ID,
+        sv: process.env.HOTJAR_SNIPPET_VERSION,
+      },
+    },
     `gatsby-plugin-offline`,
   ],
 }

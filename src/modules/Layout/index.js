@@ -1,8 +1,8 @@
-import * as S from "@/Layout/styles"
+import * as S from "./styles"
 
-import Footer from "@/Footer"
-import GlobalStyle from "@/Global/styles"
-import Menu from "@/Menu"
+import Footer from "../Footer"
+import GlobalStyle from "../Global"
+import Menu from "../Menu"
 import PropTypes from "prop-types"
 import React from "react"
 
@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
     <S.Wrapper>
       <GlobalStyle />
       <Menu />
-      <section>{children}</section>
+      <S.ContentMain>{children}</S.ContentMain>
       <Footer />
     </S.Wrapper>
   )

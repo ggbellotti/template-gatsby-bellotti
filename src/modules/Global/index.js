@@ -3,8 +3,8 @@ import { createGlobalStyle } from "styled-components"
 const GlobalStyle = createGlobalStyle`
   :root {
     --main-color: #223D8F;
-    --yellow-color: #F2D525;
-    --green-color: #0F8F79;
+    --secondary-color: #F2D525;
+    --third-color: #0F8F79;
   }
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -74,6 +74,19 @@ const GlobalStyle = createGlobalStyle`
   p{
     font-size: 1rem;
     margin-bottom: 10px;
+    line-height: 1.3;
+    a{
+      display:inline-block;
+      text-decoration: none;
+      transition: all .125s ease;
+      background-color: var(--third-color);
+      color: white;
+      &:hover{
+        text-decoration: underline;
+        background-color: var(--secondary-color);
+        color: var(--third-color);
+      }
+    }
   }
   ol, ul {
     list-style: none;

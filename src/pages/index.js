@@ -1,8 +1,10 @@
 import { graphql, useStaticQuery } from "gatsby"
 
-import Layout from "@/Layout"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
+import Layout from "@Modules/Layout"
 import React from "react"
-import SEO from "@/seo"
+import SEO from "@Modules/SEO"
+import SwUpdater from "@Modules/SwUpdater"
 
 const IndexPage = () => {
   const Metadata = useStaticQuery(graphql`
@@ -20,7 +22,25 @@ const IndexPage = () => {
         title="Template GatsbyJS"
         description={Metadata.site.siteMetadata.description}
       />
-      <h1>Home</h1>
+      <SwUpdater />
+      <div style={{ textAlign: "center" }}>
+        <h1>Home</h1>
+        <p>{Metadata.site.siteMetadata.description}</p>
+        <p>
+          <a
+            href="https://github.com/guilhermebellotti/template-gatsby-bellotti"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Clone the repository
+          </a>{" "}
+          and quit editing and building your website. <br />
+          For more information and details, see the{" "}
+          <AniLink paintDrip hex="#223D8F" to="/readme">
+            README
+          </AniLink>
+        </p>
+      </div>
     </Layout>
   )
 }
