@@ -1,4 +1,4 @@
-## Updates (march 03th, 2021)
+## Updates (march 20th, 2021)
 
 The GatsbyJS is uptade for version 3.x.x. Is new versions cause breakchanges in code of template. For update your template, recommended follow commands below (important: this cause erros and breakchanges):
 
