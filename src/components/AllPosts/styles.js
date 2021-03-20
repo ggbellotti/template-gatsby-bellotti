@@ -34,6 +34,7 @@ export const ItemDescription = styled.div`
 `
 export const Item = styled(LinkTransition)`
   margin: 10px;
+  width: 100%;
   &:first-of-type {
     margin-left: 0;
   }
