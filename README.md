@@ -16,7 +16,7 @@ If can do download the repository and install the new template, is better. It's 
 
 ## Demo
 
-View the demo this project: [click here](https://condescending-agnesi-930b2f.netlify.app/)
+View the demo this project: [click here](https://template-gatsby-bellotti.netlify.app/)
 
 ## Why use this template?
 
