@@ -37,4 +37,6 @@ The loon’s enemies include eagles, gulls, raccoons, and​—worst of all—�
 
 That said, the loon population remains healthy. Hence, this dashingly handsome bird with its inimitable calls and amusing ways should enchant bird lovers for many years to come.
 
+![Common Loon - Photo by Ray Hennessy](/img/uploads/mark-olsen-CCop6ooMVb0-unsplash.jpg)
+
 https://www.jw.org/pt/biblioteca/revistas/g201211/mergulhao-do-norte/

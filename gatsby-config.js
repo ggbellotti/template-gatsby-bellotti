@@ -10,6 +10,7 @@ module.exports = {
     phone: process.env.PHONE,
   },
   plugins: [
+    `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-transformer-sharp`,
@@ -149,7 +150,6 @@ module.exports = {
       options: {
         includeInDevelopment: false,
         id: process.env.HOTJAR_ID,
-        sv: process.env.HOTJAR_SNIPPET_VERSION,
       },
     },
     `gatsby-plugin-offline`,

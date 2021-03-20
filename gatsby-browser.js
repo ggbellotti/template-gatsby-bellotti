@@ -6,6 +6,7 @@
 
 // You can delete this file if you're not using it
 import "lazysizes"
+import "./src/modules/SwUpdater/style-loading.css"
 
 import React from "react"
 import ReactDOM from "react-dom"

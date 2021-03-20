@@ -12,4 +12,6 @@ Consider: Researchers speculate that some types of birds use the earth’s magne
 
 What Do You Think? Did the navigational system of the bar-tailed godwit come about by evolution? Or was it designed?
 
+![Common Loon - Photo by © Ian Davies](/img/uploads/46320861.jpg)
+
 https://www.jw.org/pt/biblioteca/revistas/g201301/navegacao-do-fuselo/

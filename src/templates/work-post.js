@@ -46,9 +46,11 @@ export const query = graphql`
         description
         image {
           childImageSharp {
-            fluid {
-              src
-            }
+            gatsbyImageData(
+              layout: FULL_WIDTH
+              placeholder: DOMINANT_COLOR
+              quality: 70
+            )
           }
         }
       }

@@ -12,6 +12,8 @@ BRILLIANT colors burst from the forest canopy as a flock of birds take wing! Thi
 
 Both male and female macaws are vividly colored, an oddity among brightly colored avians. Macaws are also intelligent, social birds with harsh squawks and piercing shrieks. In flocks of up to about 30 individuals, they leave their roosts early in the morning to forage for seeds, tropical fruits, and other foods. Typical of parrots, they often use their claws to grasp food, which they bite into with their big, curved bill. They can even crack open the tough shells of nuts! After feeding, they commonly flock to cliffs or riverbanks to nibble on clay, which may help to neutralize toxins in their food as well as to supply needed chemical elements.
 
+![Macaw - Photo by Domenik Kowalewski](/img/uploads/arne-verbist-qZlK8a-D-A4-unsplash.jpg)
+
 “[God] has made everything beautiful in its time.”—Ecclesiastes 3:11
 
 https://www.jw.org/pt/biblioteca/revistas/despertai-n2-abril-2016/araras/

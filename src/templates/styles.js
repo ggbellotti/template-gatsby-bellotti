@@ -99,6 +99,11 @@ export const GlobalStyle = createGlobalStyle`
     border-style: none;
   }
 
+  .markdown-body .gatsby-resp-image-wrapper{
+    max-width: 500px !important;
+    margin: 20px 0;
+  }
+
   .markdown-body code,
   .markdown-body kbd,
   .markdown-body pre {

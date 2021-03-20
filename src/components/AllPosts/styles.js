@@ -34,6 +34,12 @@ export const ItemDescription = styled.div`
 `
 export const Item = styled(LinkTransition)`
   margin: 10px;
+  &:first-of-type {
+    margin-left: 0;
+  }
+  &:last-of-type {
+    margin-right: 0;
+  }
   @media (max-width: 1024px) {
     margin: 0 0 15px 0;
   }

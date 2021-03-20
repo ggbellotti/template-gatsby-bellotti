@@ -4,7 +4,6 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 import Layout from "@Modules/Layout"
 import React from "react"
 import SEO from "@Modules/SEO"
-import SwUpdater from "@Modules/SwUpdater"
 
 const IndexPage = () => {
   const Metadata = useStaticQuery(graphql`
@@ -22,7 +21,6 @@ const IndexPage = () => {
         title="Template GatsbyJS"
         description={Metadata.site.siteMetadata.description}
       />
-      <SwUpdater />
       <div style={{ textAlign: "center" }}>
         <h1>Home</h1>
         <p>{Metadata.site.siteMetadata.description}</p>
