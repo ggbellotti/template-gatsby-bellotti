@@ -9,7 +9,7 @@ Upgrade gatsby 3.1.x
     $ rm -rf node_modules
     $ yarn add babel-preset-gatsby
     $ yarn add gatsby-plugin-image
-    $ yarn install or npm i
+    $ yarn install
     $ gatsby clean
 
 If can do download the repository and install the new template, is better. It's update for Gatsby 3.1.x
