@@ -100,7 +100,6 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   .markdown-body .gatsby-resp-image-wrapper{
-    max-width: 500px !important;
     margin: 20px 0;
   }
 

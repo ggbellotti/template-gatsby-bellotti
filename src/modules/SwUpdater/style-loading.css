@@ -1,6 +1,6 @@
 
 /* Get message loading Gatsby */
-[data-gatsby-loading-indicator="root"] {
-  background: var(--main-color);
-  color: var(--secondary-color);
+div[data-gatsby-loading-indicator="root"] {
+  background: var(--main-color) !important;
+  color: var(--secondary-color) !important;
 }
