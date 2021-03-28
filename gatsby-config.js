@@ -107,9 +107,11 @@ module.exports = {
       options: {
         name: `Guilherme Bellotti Template`,
         short_name: `GB Template`,
+        description: `emplate designed to facilitate the creation of websites with the Netlify CMS.`,
         start_url: `/`,
         background_color: `#000`,
         theme_color: `#000`,
+        lang: `BR`,
         display: `standalone`,
         icon: `static/img/icon-app-favicon.png`,
       },
