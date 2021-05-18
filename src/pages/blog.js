@@ -1,12 +1,12 @@
 import AllPosts from "@Components/AllPosts"
 import Layout from "@Modules/Layout"
 import React from "react"
-import SEO from "@Modules/SEO"
+import Seo from "@Modules/SEO"
 
 const BlogPage = () => {
   return (
     <Layout>
-      <SEO
+      <Seo
         title="Blog"
         description="Confira alguns dos meus trabalhos ou leia as tirinhas diárias"
       />

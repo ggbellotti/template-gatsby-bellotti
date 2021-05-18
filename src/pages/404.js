@@ -1,11 +1,11 @@
 import Layout from "@Modules/Layout"
 import { Link } from "gatsby"
 import React from "react"
-import SEO from "@Modules/SEO"
+import Seo from "@Modules/SEO"
 
 const NotFoundPage = () => (
   <Layout>
-    <SEO title="404: Not found" />
+    <Seo title="404: Not found" />
     <h1 style={{ textAlign: "center" }}>
       Oh... I didn't find what you're looking for ...
     </h1>

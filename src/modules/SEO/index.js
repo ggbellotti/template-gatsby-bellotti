@@ -11,7 +11,7 @@ import { Helmet } from "react-helmet"
 import PropTypes from "prop-types"
 import React from "react"
 
-function SEO({ description, lang, meta, title, image }) {
+function Seo({ description, lang, meta, title, image }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -85,17 +85,17 @@ function SEO({ description, lang, meta, title, image }) {
   )
 }
 
-SEO.defaultProps = {
+Seo.defaultProps = {
   lang: `pt-br`,
   meta: [],
   description: ``,
 }
 
-SEO.propTypes = {
+Seo.propTypes = {
   description: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
 }
 
-export default SEO
+export default Seo

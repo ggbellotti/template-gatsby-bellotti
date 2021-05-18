@@ -2,7 +2,7 @@ import * as S from "./styles"
 
 import Layout from "@Modules/Layout"
 import React from "react"
-import SEO from "@Modules/SEO"
+import Seo from "@Modules/SEO"
 import Sharing from "@Components/Sharing"
 import { graphql } from "gatsby"
 
@@ -11,7 +11,7 @@ const WorkPost = ({ data }) => {
   return (
     <Layout>
       <S.GlobalStyle />
-      <SEO
+      <Seo
         title={post.frontmatter.title}
         description={post.frontmatter.description}
         image={

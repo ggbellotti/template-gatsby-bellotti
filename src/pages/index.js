@@ -3,7 +3,7 @@ import { graphql, useStaticQuery } from "gatsby"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import Layout from "@Modules/Layout"
 import React from "react"
-import SEO from "@Modules/SEO"
+import Seo from "@Modules/SEO"
 
 const IndexPage = () => {
   const Metadata = useStaticQuery(graphql`
@@ -17,7 +17,7 @@ const IndexPage = () => {
   `)
   return (
     <Layout>
-      <SEO
+      <Seo
         title="Template GatsbyJS"
         description={Metadata.site.siteMetadata.description}
       />

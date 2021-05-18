@@ -34,15 +34,16 @@ const GlobalStyle = createGlobalStyle`
   body {
     line-height: 1;
     background-color: #fff;
-    font-family: 'Roboto Mono', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
     font-size: 16px;
     color: #000;
-    &.hiddenBar{
+    &.showMenu{
       overflow: hidden;
     }
   }
   button {
-    font-family: 'Roboto Mono', sans-serif;
+    font-family: 'Roboto Mono';
     font-size: 16px;
     &:focus{
       outline: none;
@@ -102,6 +103,9 @@ const GlobalStyle = createGlobalStyle`
   table {
     border-collapse: collapse;
     border-spacing: 0;
+  }
+  .gatsby-plugin-transition-link-portal{
+    width: 100%;
   }
 `
 export default GlobalStyle

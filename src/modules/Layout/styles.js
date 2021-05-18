@@ -9,4 +9,6 @@ export const Wrapper = styled.main`
     width: calc(100% - 30px);
   }
 `
-export const ContentMain = styled.section``
+export const ContentMain = styled.section`
+  margin-top: 125px;
+`
