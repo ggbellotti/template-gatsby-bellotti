@@ -19,7 +19,7 @@
   "dependencies": {
     "babel-preset-gatsby": "^1.14.0",
     "dotenv": "^10.0.0",
-    "gatsby": "^3.14.0",
+    "gatsby": "^3.14.1",
     "gatsby-cli": "^3.14.0",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-algolia": "^0.22.2",
@@ -44,9 +44,9 @@
     "gatsby-source-filesystem": "^3.14.0",
     "gatsby-transformer-remark": "^4.11.0",
     "gatsby-transformer-sharp": "^3.14.0",
-    "gsap": "^3.7.1",
+    "gsap": "^3.8.0",
     "lazysizes": "^5.3.2",
-    "netlify-cms-app": "^2.15.44",
+    "netlify-cms-app": "^2.15.46",
     "netlify-plugin-gatsby-cache": "^0.3.2",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
@@ -54,7 +54,7 @@
     "react-helmet": "^6.1.0",
     "react-share": "^4.4.0",
     "styled-components": "^5.3.1",
-    "styled-icons": "^10.40.0"
+    "styled-icons": "^10.43.0"
   },
   "devDependencies": {
     "gatsby-plugin-root-import": "^2.0.7",

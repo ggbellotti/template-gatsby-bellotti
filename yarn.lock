@@ -3544,10 +3544,10 @@
     "@babel/runtime" "^7.14.0"
     "@styled-icons/styled-icon" "^10.6.3"
 
-"@styled-icons/octicons@10.39.0":
-  version "10.39.0"
-  resolved "https://registry.yarnpkg.com/@styled-icons/octicons/-/octicons-10.39.0.tgz#21b96b8bb832ae922b53964ce4291b57f98899c9"
-  integrity sha512-//N1lsaOlA0VtBqHPb55eqCwpZ0gPQWTbHubfmESIaf0zmhTaz/HuAgPSSaNXzYbMzmIzyg8bw9UhMeZOFqDcw==
+"@styled-icons/octicons@10.42.0":
+  version "10.42.0"
+  resolved "https://registry.yarnpkg.com/@styled-icons/octicons/-/octicons-10.42.0.tgz#bb1b8e937ba365b6085ef2e318d6ac243b7fe7c0"
+  integrity sha512-sRMoq1V+1vBUOOVnPSuAnBcayC1gMvXWggoCJjidBHzVEZXQmARXByoNdsZwFDDGULy+YcOn2wY8wmKSVDR5RA==
   dependencies:
     "@babel/runtime" "^7.15.4"
     "@styled-icons/styled-icon" "^10.6.3"
@@ -3584,10 +3584,10 @@
     "@babel/runtime" "^7.10.5"
     "@styled-icons/styled-icon" "^10.6.0"
 
-"@styled-icons/simple-icons@10.40.0":
-  version "10.40.0"
-  resolved "https://registry.yarnpkg.com/@styled-icons/simple-icons/-/simple-icons-10.40.0.tgz#3c449df2a7d778cda6a056fee06d01d8de74884d"
-  integrity sha512-pBulyj5ody0N4J5rW8a+x4J6tP0BqISO+Ind1FKkf40cHTyKtI5p69ANb1xRoFezZ2GazHbiEWbULmvjUjv5cg==
+"@styled-icons/simple-icons@10.43.0":
+  version "10.43.0"
+  resolved "https://registry.yarnpkg.com/@styled-icons/simple-icons/-/simple-icons-10.43.0.tgz#d98836f2c10519edb2e6d36bf12ede3cf1898bea"
+  integrity sha512-hUv0yMNgpy0fyv+7PGKPeGfhx4gQnkh1kPuLZTKpysYOO4M8f8xqeAVMRpmEhEKztv2KyxgpukoakX3n0Ig/Hw==
   dependencies:
     "@babel/runtime" "^7.15.4"
     "@styled-icons/styled-icon" "^10.6.3"
@@ -8643,10 +8643,10 @@ gatsby-worker@^0.5.0:
     "@babel/core" "^7.15.5"
     "@babel/runtime" "^7.15.4"
 
-gatsby@^3.14.0:
-  version "3.14.0"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-3.14.0.tgz#06c27464f1a9d044169ec910d0c9d7ef44e0b1d8"
-  integrity sha512-ikXoVZ9LQO9lZBxVvQxrYkjhX1zz9/7/Iv/6WCt/UPdgYCWCKc6GWOqlbLKmjShM0fBxJHfjmiahNxuTzJIZsw==
+gatsby@^3.14.1:
+  version "3.14.1"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-3.14.1.tgz#0b0edde45bedd18845ec338ca65b1e88d4de3384"
+  integrity sha512-6wt1MDMOfm6Zm8yiS8zDwjkth5spX7RorKKnYNNfZFyD0lztdql9jgAXFCxO0FxRDagDKxxfxj3cYyHHzPlalg==
   dependencies:
     "@babel/code-frame" "^7.14.0"
     "@babel/core" "^7.15.5"
@@ -9251,10 +9251,10 @@ gray-matter@^4.0.2:
     section-matter "^1.0.0"
     strip-bom-string "^1.0.0"
 
-gsap@^3.7.1:
-  version "3.7.1"
-  resolved "https://registry.yarnpkg.com/gsap/-/gsap-3.7.1.tgz#1c5857f4fbcbd3f5ca0b513ef7abf828fbaa20a8"
-  integrity sha512-4qxuaC2yFWRjMRof5tI/7c9/+L4xMsCoqHrZAmuh+IbOokTnZyoeF0VgvcVHq3uo+/VJZCs7PTvjrFasfGl+ww==
+gsap@^3.8.0:
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/gsap/-/gsap-3.8.0.tgz#a404dd6ebbaabc92605539aea9d98e3098688064"
+  integrity sha512-cvpzKkWFePDZCycwXwJnDSpTR3j+a4QLQF/t0c+pXqzRESgAYx5hieaoshzZFjbwsARqr0+5c3GKE7wI273w/g==
 
 gzip-size@5.1.1:
   version "5.1.1"
@@ -11823,10 +11823,10 @@ neo-async@^2.6.2:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-netlify-cms-app@^2.15.44:
-  version "2.15.44"
-  resolved "https://registry.yarnpkg.com/netlify-cms-app/-/netlify-cms-app-2.15.44.tgz#5e4a36f26f2ed048cb7ee025d25a4c37b1200950"
-  integrity sha512-y2mB7HyrCzASMMh8KzinZ3oZtLYTzbjSnjgHA0BqfEr3ihTmY3o0AEWLQWBhHf+wpXWDHCK8TgSL+sd/M48DtA==
+netlify-cms-app@^2.15.46:
+  version "2.15.46"
+  resolved "https://registry.yarnpkg.com/netlify-cms-app/-/netlify-cms-app-2.15.46.tgz#10ce7a04dbde16701088e7d8d4eabed06f0a8bf1"
+  integrity sha512-8hm2YXnYXLrVpyJcwQY7oxUDtiAVn0uqJLQ5iqpqHkQB+nFPXyulwrXELLUACDrAaBGqsanmbDkWXYptQ6qkFQ==
   dependencies:
     "@emotion/core" "^10.0.35"
     "@emotion/styled" "^10.0.27"
@@ -11841,12 +11841,12 @@ netlify-cms-app@^2.15.44:
     netlify-cms-backend-gitlab "^2.11.4"
     netlify-cms-backend-proxy "^1.2.3"
     netlify-cms-backend-test "^2.11.3"
-    netlify-cms-core "^2.50.0"
+    netlify-cms-core "^2.51.0"
     netlify-cms-editor-component-image "^2.7.0"
     netlify-cms-lib-auth "^2.4.2"
     netlify-cms-lib-util "^2.13.3"
     netlify-cms-lib-widgets "^1.6.3"
-    netlify-cms-locales "^1.35.0"
+    netlify-cms-locales "^1.35.1"
     netlify-cms-ui-default "^2.15.2"
     netlify-cms-widget-boolean "^2.4.1"
     netlify-cms-widget-code "^1.3.3"
@@ -11929,10 +11929,10 @@ netlify-cms-backend-test@^2.11.3:
   resolved "https://registry.yarnpkg.com/netlify-cms-backend-test/-/netlify-cms-backend-test-2.11.3.tgz#1a92b6bf139d705c725effbdd9a05462481aa0c4"
   integrity sha512-L7WXjryPcZ8immIkrdDauZjqiOrKS5NIcc6ewP9QI1BrZr2jeqwDpeN2/45fPdg/TRxtRA3ik3MuKXXLJRJ0MQ==
 
-netlify-cms-core@^2.50.0:
-  version "2.50.0"
-  resolved "https://registry.yarnpkg.com/netlify-cms-core/-/netlify-cms-core-2.50.0.tgz#21e74641f2f674eecc47b7cbf50f911a6a002d3a"
-  integrity sha512-r8hET0zyxPN8yX2rAIyzvFAHa6Dao+fBelwdZxPVe36G6PkXAdjZYI9fQuxeOmF6LVxJs81ZTbbYcEkCvDErIg==
+netlify-cms-core@^2.51.0:
+  version "2.51.0"
+  resolved "https://registry.yarnpkg.com/netlify-cms-core/-/netlify-cms-core-2.51.0.tgz#840314613f700646c2d8bcf311ff03c57fffc7f6"
+  integrity sha512-1qDU+pvp8Cf1ByM03CPzwfo1BvrxoI8UnYF5LRV6Y3k7UsGj+6jnSBY5xCiElNi1xAAyey1B23TWOPK6brnGGA==
   dependencies:
     "@iarna/toml" "2.2.5"
     ajv "8.1.0"
@@ -12007,10 +12007,10 @@ netlify-cms-lib-widgets@^1.6.3:
   resolved "https://registry.yarnpkg.com/netlify-cms-lib-widgets/-/netlify-cms-lib-widgets-1.6.3.tgz#06bd3c364b1552a9640815e3ca0d72b56faf1544"
   integrity sha512-/35bTvzuEOEOLeY+gQkgBMUu4NQz2gf3ItITUZtBNIbHhN0z6RiGtqVPmQu2PPcqzQXf+IUbhr2VVLUN6a/tpg==
 
-netlify-cms-locales@^1.35.0:
-  version "1.35.0"
-  resolved "https://registry.yarnpkg.com/netlify-cms-locales/-/netlify-cms-locales-1.35.0.tgz#b6e7ae6684b3c33f32c4dbeb45c01e96b7366061"
-  integrity sha512-b38i6gBauoN721gqC4OZZrmyj/STgicICvMjoWoaIp8OcBzonfCm78bbhHUH2Gm21oEp14KZZGXq+a/yLBfXSA==
+netlify-cms-locales@^1.35.1:
+  version "1.35.1"
+  resolved "https://registry.yarnpkg.com/netlify-cms-locales/-/netlify-cms-locales-1.35.1.tgz#e988aeea8ebbff57e438d359d82f9f36ff3a40ad"
+  integrity sha512-qhjeS2eNYBgh/F2p2fCwyYsuAw0u1IogOpVIP9WV8+Xx73ydxeuiX5YWY0qUG2Ba6LffzNkIiRl7IPvdLqffmg==
 
 netlify-cms-ui-default@^2.15.2:
   version "2.15.2"
@@ -15678,10 +15678,10 @@ styled-components@^5.3.1:
     shallowequal "^1.1.0"
     supports-color "^5.5.0"
 
-styled-icons@^10.40.0:
-  version "10.40.0"
-  resolved "https://registry.yarnpkg.com/styled-icons/-/styled-icons-10.40.0.tgz#0299f6f352b856cd0b3836c96fc482e165830e84"
-  integrity sha512-6k7GRe8CMx3F8k1paGDlONR9enMj2g0blmoK4nqN9Gsve6li/cxO3ksQeKp0S3bjqfMgm3NBsqQVSTAFP29uow==
+styled-icons@^10.43.0:
+  version "10.43.0"
+  resolved "https://registry.yarnpkg.com/styled-icons/-/styled-icons-10.43.0.tgz#318f7cf2965dd511cea88c070c658a53ac6cb45a"
+  integrity sha512-LRRqH6DW0KMlrF+GJXW8TJrs8/OlQ4IHsUY0OBTu8As4DOHLz5dSY/BHdMH7yholDGZW9rRZFJ1qN8LCNuX4tQ==
   dependencies:
     "@babel/runtime" "^7.15.4"
     "@styled-icons/bootstrap" "10.34.0"
@@ -15712,12 +15712,12 @@ styled-icons@^10.40.0:
     "@styled-icons/material-rounded" "10.34.0"
     "@styled-icons/material-sharp" "10.34.0"
     "@styled-icons/material-twotone" "10.34.0"
-    "@styled-icons/octicons" "10.39.0"
+    "@styled-icons/octicons" "10.42.0"
     "@styled-icons/open-iconic" "10.18.0"
     "@styled-icons/remix-editor" "10.33.0"
     "@styled-icons/remix-fill" "10.18.0"
     "@styled-icons/remix-line" "10.18.0"
-    "@styled-icons/simple-icons" "10.40.0"
+    "@styled-icons/simple-icons" "10.43.0"
     "@styled-icons/styled-icon" "10.6.3"
     "@styled-icons/typicons" "10.18.0"
     "@styled-icons/zondicons" "10.18.0"
